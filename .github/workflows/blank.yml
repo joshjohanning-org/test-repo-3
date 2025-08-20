@@ -50,3 +50,11 @@ jobs:
           token: <token with access to repo if it is not an internal rep>
           groups: |
             <path to a directory in the above repo co
+
+      - uses: lindluni/actions-variable-groups@v3
+        with:
+          org: <org hosting the repo with variable group files>
+          repo: <repo containing the variable group files>
+          token: <token with access to repo if it is not an internal rep>
+          groups: |
+            <path to a directory in the above repo co
