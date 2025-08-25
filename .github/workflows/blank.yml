@@ -35,7 +35,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
 
-      - uses: lindluni/actions-variable-groups@v2
+      - uses: lindluni/actions-variable-groups@v3
         with:
           org: <org hosting the repo with variable group files>
           repo: <repo containing the variable group files>
@@ -43,7 +43,7 @@ jobs:
           groups: |
             <path to a directory in the above repo co
 
-      - uses: lindluni/actions-variable-groups@v2.5.0
+      - uses: lindluni/actions-variable-groups@v3
         with:
           org: <org hosting the repo with variable group files>
           repo: <repo containing the variable group files>
